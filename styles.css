@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+}
+
+.player-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+input {
+    margin: 10px;
+}
+
+.lyrics-container {
+    margin-top: 20px;
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 100px;
+    overflow-y: auto;
+}
+
+.current-line {
+    color: yellow;
+    font-size: 18px;
+    font-weight: bold;
+}
